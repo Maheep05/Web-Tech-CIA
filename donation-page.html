@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="donation-body">
+    <div class="donation-container">
+      <header class="donation-header">
+        <a href="index.html"
+          ><img
+            src="/images/logo-removebg-preview.png"
+            alt="justLogo"
+        /></a>
+        <h1>Donate to Support Our Cause</h1>
+      </header>
+
+      <div class="donation-form">
+        <label for="amount">Amount:</label>
+        <input
+          type="text"
+          id="amount"
+          name="amount"
+          placeholder="Enter donation amount"
+          required
+        />
+
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+
+        <label for="message">Message (optional):</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Leave a message"
+        ></textarea>
+
+        <button type="submit">Donate Now</button>
+      </div>
+
+      <footer class="donation-footer">
+        <p>Thank you for supporting our cause!</p>
+      </footer>
+    </div>
+  </body>
+</html>
