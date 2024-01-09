@@ -96,6 +96,20 @@ nav a:hover {
   color: #08853c;
 }
 
+.video-container{
+  background: #d2ffe5;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;  
+}
+
+.video-doc{
+  margin: 0 120px;
+  border: 1px solid #ccc;
+  border-radius: 10px ;
+  box-shadow: 0 0 10px;
+}
+
 .join-section {
   background: #95c7aa;
   padding: 50px;
@@ -203,7 +217,10 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* .test{
+  display: flex;
 
+} */
 .contact-header {
   background: #d2ffe5;
   display: flex;
@@ -258,6 +275,31 @@ button {
 button:hover {
   background-color: #27ae60;
 }
+
+.maps-section {
+  border: 2px solid #ccc;
+  border-radius: 10px ;
+  box-shadow: 0 0 10px;
+  /* display: flex; */
+  opacity: 0.7;
+  }
+
+  .map-container{
+    /* background: #000; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+    border-radius: 10px ;
+    height: 390px;
+    margin: 80px 120px;
+  }
+
+  .maps-section:hover{
+    opacity: 1;
+  }
+
 
 /* -------------------------FAQ Page---------------------------------------- */
 .faq-header {
